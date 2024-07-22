@@ -1,0 +1,92 @@
+conversations:
+  conversation-0001:
+    en-us: |
+      resemary: |
+          Hi John, good to have you here, today we gonna talk a little bit about career, hobbies, etc, ok?
+      john: |
+        Hello Rosemary, looks nice! 
+      rosemary: |
+        I would like to tell my story, it's was started a long time ago, when i'm 16 years old and i have my first
+        technology job.
+
+        I worked as programmer, actually i helped my uncle with small PERL scripts. Obviously he had to check
+        everything, he just gave me the "job" to introduce me to the area and make me enjoy it. 
+        I was making about $25 a week. They were relatively small scripts, but there were a lot of them,
+        some were firewall regex scripts, following OWASP rules.
+
+        I have learned html, css and javascript, passed some time, i'm more confortable with programming and then
+        i make my first business, a website when a sell my tumblr themes. After it, school, university and then my
+        first formal job. 
+
+        Forget all history about programming, my fist job was on support. On support i made a ton of scripts until
+        my leader ask me if i want to stop work on support and be the responsible for all automation scripts on
+        company, obviously i accepted.
+
+        I have worked on software house, where once for all, i could do what i really like. I worked as frontend
+        developer by 2 years, and then i ventured as full stack developer using ruby, rails and jasvascript stack.
+
+        From ruby i'm go to java, my live turn into a hell, to much legacy apps to support. This lasted 5 years.
+        With almost 10 years of career, as a senior developer, I started investing in tech lead and tech manager
+        vacancies, I evolved, learning to deal more with people and processes, less code, 
+        until I reached a management position.
+
+        More 10 years passed, and too much friends and networking made, i have started to participate of events,
+        i did a MBA, and this is my first opportunity as CO-CEO.
+
+        I'm glad to stay here because this is the step i wanted in my career and with my technichal background
+        i feel i can understund and help all areas, mainly tech, its my favorite, of course.
+        
+        Now, i'll talk a little bit about myself, no boring stuff about career rsrsrsrs
+        I'm 42 years old, i have 2 daugthers and 1 son, the daughters have 20 and 16 years old, and the boy has 12.
+        
+        I love to travel and try new restaurants, new cultures, from burguer to high gastronomy, from a single beach
+        to awarded hotels and resorts and america countries, like Brazil, of corse, i love São Paulo, 
+        it's not like that stuff, to many shoots rsrsrsrs
+
+        Thats all, i said too much, you must be tired of listening to me. Now it's your turn, tell us a little about
+        yourself, your story, what you like to do, etc.        
+      john:
+        That's awesome history, are you a dev since child, so good. Ok, now its my turn rsrsrs
+        
+        I'll start unlike you, talking about me, and then my career.
+        I'm 28 year old, i'm live with my parents. We live in Barueri, a city of São Paulo state west zone.
+        I love watch movies and tv series, like Game of Thrones, Vikings and Peaky Blinders...yes, a little bit brutal
+        i know. I'm not a travel guy, but recently we start to visit some restaurants, we have some places to visit,
+        planning to travel to the northeast of the country. My parents dont get out frequently, and i inherit
+        this curse, but now we are getting better, going out a little more, it's been so good.
+
+        How could you notice, i'm a homebody, nerd, a lover of technology, a good guy who always got screwed, and now
+        he's getting better, putting things in order. In general, I'm at that stage in life where we try to balance
+        our careers with our social lives.
+
+        Now, lets go to career.
+        I started as you, as support technician. The the contract of company where i worked was expired and then IBM
+        earned and call me and a lot of people of my team to work with them. Challange accepted.
+
+        At IBM has a culture of pick-load and regular, where you turn regular only after 2 years, until then you cannot
+        change of area or get raises and promotions, owfull, but the reality. I stayed there for 2 years and 8 months, 
+        I was fired due to cost reduction issues
+
+        As here on Brazil who has a company cannot receive unemployment insurance, i was left without it, because at
+        that time my father needed my name to open his company together with a partner.
+
+        Time to study like a crazy man. Three or four month after, i get my firt job on devops area.
+        Since support technician, i was studying linux too much, even my colleagues make fun of me.
+        At the time I wanted to be a dev, but somehow I had to have Linux in the mix.
+
+        On Pagseguro, my firt devops job, I had my first experience logging into a Linux server, managing,
+        monitoring, etc.
+        Just like you, I started creating some scripts, automating some processes, But my leaders didn't pay attention
+        to my efforts, so I started to get discouraged.
+        
+        I took my vacation, continued studying shell scripting, Linux, Ansible, Terraform, etc. In the last week of
+        the holidays I started a selection process for a devops vacancy, I was a trainee and the vacancy was for
+        full-time employees, I would skip 1 step. I accepted the challenge, took the tests and passed, and asked for
+        the bills the same week I returned from vacation. I'm still a little sad because they just said goodbye,
+        they didn't even want to know why I was sick, they didn't try to make me stay, super human treatment, but no.
+
+        After that i started on a place where i think i have a my biggest evolution, as a person, career,
+        financially, challenges, experiences. 
+
+    pt-br: ""
+      
