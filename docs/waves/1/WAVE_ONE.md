@@ -11,25 +11,21 @@ Criar o "esqueleto" da aplicação (Walking Skeleton). O usuário grava um áudi
 * **Fluxo:** `Frontend` -> (HTTP POST) -> `Backend Go` -> (HTTP POST) -> `Worker Python` -> (Response JSON) -> `Backend Go` -> (Response JSON) -> `Frontend`.
 
 ## 🛠️ Stack Tecnológica
-* **Frontend:** Next.js 14 (App Router), TypeScript, TailwindCSS, Shadcn/ui.
-* **Backend:** Golang (Framework `Chi` ou `Fiber`), Postgres (Driver `pgx/v5`).
-* **AI/Worker:** Python 3.10+, FastAPI, Faster-Whisper (STT), Ollama (LLM local).
-* **Infra Local:** Docker (básico) ou rodando processos no terminal.
+* **Frontend:** HTML, CSS, Javascript
+* **Backend:** Golang (Framework `Chi`)
+* **AI/Worker:** Python, FastAPI, Faster-Whisper (STT), Ollama (LLM local).
 
 ## 📋 Tarefas Detalhadas
 
 ### 1. Frontend (Interface Básica)
-- [ ] Setup do Next.js com TypeScript e Shadcn.
-- [ ] Criar componente `AudioRecorder` (usando Web Audio API básica).
-- [ ] Criar tela de "Loading" enquanto espera a resposta do backend.
-- [ ] Exibir resultado simples: Texto Transcrito + Texto Corrigido.
+- [x] Criar página HTML com botão de start/stop de gravação, botão de análise, link para baixar audio, cards para transcrição, erros gramaticais e sugestões.
+- [x] Criar arquivo CSS com estilização da página
+- [x] Criar arquivo de script Javascript para gerar o arquivo de áudio, chamar o backend, fazer parse do response e mostrar os dados corretamente na tela.
 
 ### 2. Backend (Golang Core)
-- [ ] Criar estrutura de pastas Clean/Hexagonal (`cmd`, `internal`, `pkg`).
-- [ ] Implementar `POST /upload`: Recebe `multipart/form-data`.
-- [ ] Implementar **Interface** `AIService`:
-    * *Nota:* Isso é crucial para a Wave 2. Defina a interface agora para facilitar a mudança depois.
-- [ ] Persistência: Salvar metadados da tentativa no Postgres.
+- [x] Criar endpoint `/upload`
+    - [x] Recebe `POST` em `/upload`, com arquivo de audio usando `multipart/form-data`
+    - [x] Envia `POST` em `/transcribe` do worker, com arquivo de audio usando `multipart/form-data`
 
 ### 3. AI Worker (Python Brain)
 - [x] Setup FastAPI.
