@@ -6,14 +6,7 @@ import requests
 import json
 
 app = FastAPI()
-
-# Carrega o modelo na RAM apenas uma vez (use "tiny" para ser rápido no teste)
 model = WhisperModel("tiny", device="cpu", compute_type="int8")
-
-# model = WhisperModel("tiny", device="cuda", compute_type="int8")
-# Unable to load any of {libcudnn_ops.so.9.1.0, libcudnn_ops.so.9.1, libcudnn_ops.so.9, libcudnn_ops.so} 
-# Invalid handle. Cannot load symbol cudnnCreateTensorDescriptor
-
 
 @app.post("/transcribe")
 def transcribe(file: UploadFile):
@@ -53,9 +46,9 @@ Texto para revisar:
         "format": "json"
     }
     response = requests.post(ollama_url, json=payload)
-    print(f"\n\n\n==response==\n{response}\n\n\n")
     transcription_with_corrections = json.loads(response.json()["response"])
 
+    print(f"\n\n\n==response==\n{transcription_with_corrections}\n\n\n")
     return {
         "language": info.language,
         "probability": info.language_probability,

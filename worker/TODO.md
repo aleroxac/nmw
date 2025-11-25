@@ -1,21 +1,21 @@
 # TODOs
 
-## worker
-- [ ] use pathlib instead of os
+- [ ] use pathlib instead of os lib
 - [ ] review the need of a temporary file during the transcription
-- [ ] implent a class for input and output
-- [ ] look for the faster_whisper documentation to see which options are available
-- [ ] integrate faster_whisper with ollama
+- [ ] implement input and output data classes
+- [ ] look for the faster_whisper documentation to learn more about
 - [ ] consume the model params via env vars or dotenv
+- [ ] review the prompt approach, to understand what is the better way to make sure that the model will return data based on a specific schema
+- [ ] translate all comments, docs and code to english
+- [ ] check if ollama-server is available and add timeout
+- [ ] check if ollama-model is available
 
-## backend
-- [ ] criar endpoint /api/analyze, que será chamada pelo frontend passando arquivo .wav, e então o backend deverá chamar o serviço de AI, obter a transcrição, guardar os dados no banco de dados, e retornar a transcrição e os dados obtidos pela AI de volta para o frontend
-    - receber chamada do front
-    - chamar o worker
-    - salvar o arquivo de audio localmente
-    - guardar dados no banco
-        - attempts
-            - audio_file_path: TEXT
-            - transcription: TEXT
-            - ai_analysis: JSONB
-    - retornar dados para o frontend
+- [ ] add swagger docs
+- [ ] add auth
+
+- [ ] add healthcheck
+- [ ] add logs
+- [ ] add metrics
+- [ ] add traces
+
+- [ ] review the response data
