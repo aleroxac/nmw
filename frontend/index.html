@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Analyzer App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+
+        <h1>Audio Analyzer</h1>
+
+        <button id="recordBtn" class="btn btn-primary">🎙️ Start Recording</button>
+        <button id="analyzeBtn" class="btn btn-secondary" disabled>🔍 Analyze Audio</button>
+
+        <audio id="audioPlayer" controls></audio>
+        <a id="downloadLink" style="color:white; text-decoration:underline;">Download Audio</a>
+
+        <div id="errorBox"></div>
+
+        <div id="resultOriginal" class="card" style="display:none;">
+            <div class="title">Original Text</div>
+            <div id="originalText" class="list"></div>
+        </div>
+
+        <div id="resultErrors" class="card" style="display:none;">
+            <div class="title">Grammar Errors</div>
+            <div id="grammarErrors" class="list"></div>
+        </div>
+
+        <div id="resultSuggestions" class="card" style="display:none;">
+            <div class="title">Suggestions</div>
+            <div id="suggestions" class="list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
